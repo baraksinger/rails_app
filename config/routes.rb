@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   post '/users/create_multi', to: 'users#create_multi'
   put '/users/:id', to: 'users#update'
   delete 'users/:id', to: 'users#destroy'
-  # resources :users
+  resources :users
 end
